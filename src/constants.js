@@ -1,0 +1,1 @@
+export const JIMMIFY_API_URL = 'https://jimmified.com/api/';

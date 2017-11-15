@@ -19,5 +19,10 @@
   "bugs": {
     "url": "https://github.com/jimmified/jimmify.js/issues"
   },
-  "homepage": "https://github.com/jimmified/jimmify.js#readme"
+  "homepage": "https://github.com/jimmified/jimmify.js#readme",
+  "dependencies": {
+    "auto-bind": "^1.1.0",
+    "node-fetch": "^1.7.3",
+    "url-join": "^2.0.2"
+  }
 }
