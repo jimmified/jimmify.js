@@ -1,0 +1,23 @@
+{
+  "name": "jimmify",
+  "version": "0.0.0",
+  "description": "A javascript library for interacting with Jimmy",
+  "main": "dist/main.js",
+  "scripts": {
+    "test": "ava"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jimmified/jimmify.js.git"
+  },
+  "keywords": [
+    "jimmy",
+    "jimmified"
+  ],
+  "author": "Adam Dierkens <adam@dierkens.com>",
+  "license": "Beerware",
+  "bugs": {
+    "url": "https://github.com/jimmified/jimmify.js/issues"
+  },
+  "homepage": "https://github.com/jimmified/jimmify.js#readme"
+}
