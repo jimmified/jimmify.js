@@ -3,13 +3,21 @@
   "version": "0.0.0",
   "description": "A javascript library for interacting with Jimmy",
   "main": "dist/main.js",
+  "module": "dist/module/main.js",
   "scripts": {
-    "test": "ava"
+    "test": "ava",
+    "build": "run-p build:*",
+    "build:module": "babel src -d dist/module",
+    "build:webpack": "webpack"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jimmified/jimmify.js.git"
   },
+  "files": [
+    "src",
+    "dist"
+  ],
   "keywords": [
     "jimmy",
     "jimmified"
@@ -24,5 +32,13 @@
     "auto-bind": "^1.1.0",
     "node-fetch": "^1.7.3",
     "url-join": "^2.0.2"
+  },
+  "babel": {},
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "npm-run-all": "^4.1.2",
+    "webpack": "^3.8.1"
   }
 }
